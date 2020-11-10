@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Quicksand Medium';
+    src: url('fonts/BebasNeuewebfont.eot');
+    src: local('Quicksand-Medium'), url('fonts/Quicksand-Medium') format('.ttf');
+}
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: url('fonts/BebasNeuewebfont.eot');
+    src: local('Quicksand-Bold'), url('fonts/Quicksand-Bold') format('.ttf');
+}
+@font-face {
+    font-family: 'Quicksand Light';
+    src: url('fonts/BebasNeuewebfont.eot');
+    src: local('Quicksand-Light'), url('fonts/Quicksand-Light') format('.ttf');
+}
+body {
+    font-family: "Quicksand Medium";
+}
+header h1 span {
+    font-family: "Quicksand Light";
+    font-style: italic;
+}
