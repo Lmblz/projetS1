@@ -1,0 +1,28 @@
+p {
+    margin: 0 19px 0 19px;
+}
+header .logo img {
+    height: 52px;
+    margin: 10px 0 0 34px;
+    position: relative;
+    margin-bottom: 16px;
+}
+header h1 {
+    text-indent: -9999px;
+    display: none;
+}
+.accueil>p {
+    margin: 37px 12px 0 12px;
+}
+.image_accueil {
+    position: relative;
+}
+.image_accueil .pitch p {
+    position: absolute;
+    top: 150px;
+    color: #F5E7C0;
+    width: 140px;
+}
+.accueil .image_accueil img {
+    margin-top: 92px;
+}
