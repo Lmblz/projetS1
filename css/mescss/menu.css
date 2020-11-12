@@ -55,9 +55,7 @@ body {
     font-size: 24px;
     
 }
-.menu li{
-    margin-bottom: 15px;
-}
+.menu li{ margin-bottom: 15px; }
 .menu a{
     text-decoration: none;
     color: white;
@@ -104,13 +102,50 @@ body {
     -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
     transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
 }
-.hexagone .hexagonecontent{
+.hexagone .hexagonecontent {
     overflow-y: auto;
-    width: 100%;
+    width: 70%;
     display: block;
     position: absolute;
     visibility: visible;
     z-index: 3;
     color: #F5E7C0;
-    top: 50%;
+    top: 65%;
+    left: 32%;
+}
+.hexagone { transform: rotate(30deg); }
+
+.menu_boutons span {
+    transform: rotate(-30deg);
+    height: 35px;
+    text-align: center;
+}
+.menu_introduction,.menu_problemes,.menu_solutions,.menu_contact,.menu_si_vous_avez_aime,.menu_a_propos {
+    display: block;
+    position: absolute;
+}
+
+.menu_problemes,.menu_contact { left: 12px; }
+.menu_introduction,.menu_a_propos { left: 122px; }
+.menu_solutions,.menu_si_vous_avez_aime { left: 232px; }
+
+.menu_introduction { top: 320px; }
+.menu_problemes,.menu_solutions { top: 383px; }
+.menu_contact,.menu_si_vous_avez_aime { top: 510px;}
+.menu_a_propos { top: 572px; }
+
+.e_menu img {
+    position: absolute;
+    top: 485px;
+    left: 150px;
+}
+.menu h1 {
+    position: absolute;
+    top: 51px;
+    left: 18px;
+}
+.menu p {
+    position: absolute;
+    top: 155px;
+    left: 12px;
 }

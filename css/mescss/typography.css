@@ -1,7 +1,10 @@
 body {
     font-family: 'Quicksand';
 }
-.accueil>p {
+p,a,span {
+    font-size: 14px;
+}
+.accueil>p,.menu p {
     font-family: "Quicksand Light";
     font-style: italic;
     text-align: center;
@@ -10,4 +13,20 @@ body {
 .image_accueil .pitch p {
     font-weight: bold;
     text-align: center;
+    font-size: 18px;
+}
+footer,footer a {
+    color: #F5E7C0;
+    text-align: center;
+}
+.fleche_content, .fleches h3 {
+    color: #F5E7C0;
+    /*color: black;*/
+}
+.image_accueil .pitch p {
+    color: #F5E7C0;
+    /*color: black;*/
+}
+.menu_boutons span {
+    font-size: 14px;
 }
