@@ -93,7 +93,6 @@ body {
     display: block;
     position: absolute;
     visibility: visible;
-    display: block;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -148,4 +147,20 @@ body {
     position: absolute;
     top: 155px;
     left: 12px;
+}
+.introduction_svg,.problemes_svg,.solutions_svg,.a_propos_svg {
+    position: absolute;
+    top: 15%;
+    left: 28%;
+}
+.contact_svg,.si_vous_avez_aime_svg {
+    position: absolute;
+}
+.si_vous_avez_aime_svg {
+    top: 20%;
+    left: 28%;
+}
+.contact_svg {
+    top: 25%;
+    left: 28%;
 }
