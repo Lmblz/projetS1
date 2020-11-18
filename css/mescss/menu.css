@@ -124,9 +124,9 @@ body {
     position: absolute;
 }
 
-.menu_problemes,.menu_contact { left: 12px; }
-.menu_introduction,.menu_a_propos { left: 122px; }
-.menu_solutions,.menu_si_vous_avez_aime { left: 232px; }
+.menu_problemes,.menu_contact { left: 18px; }
+.menu_introduction,.menu_a_propos { left: 128px; }
+.menu_solutions,.menu_si_vous_avez_aime { left: 238px; }
 
 .menu_introduction { top: 320px; }
 .menu_problemes,.menu_solutions { top: 383px; }
@@ -136,7 +136,7 @@ body {
 .e_menu img {
     position: absolute;
     top: 485px;
-    left: 150px;
+    left: 155px;
 }
 .menu h1 {
     position: absolute;
@@ -163,4 +163,11 @@ body {
 .contact_svg {
     top: 25%;
     left: 28%;
+}
+.menu .top p {
+    margin-left: 0;
+    width: 350px;
+}
+header .nav-toggle .menu {
+    height: 812px;
 }

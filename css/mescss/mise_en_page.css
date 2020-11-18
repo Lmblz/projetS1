@@ -4,6 +4,8 @@ body {
 p {
     margin: 0 19px 0 19px;
 }
+body.index { background-color: white; }
+
 header .logo img {
     height: 52px;
     margin: 10px 16px 0 34px;
@@ -15,9 +17,10 @@ header>h1 {
 }
 main.accueil {
     height: 694px;
+    margin-top: 53px;
 }
 .accueil>p,.menu p {
-    margin: 37px 7px 0 5px;
+    margin: 0 6px 0 6px;
 }
 .image_accueil {
     position: relative;
@@ -39,15 +42,19 @@ main.accueil {
     margin-top: 0;
     padding-top: 15px;
 }
+body.index footer { position: absolute; }
+
 footer {
-    bottom: 0;
     position: absolute;
 }
+
+footer { bottom: 0; }
+
 footer .contact {
     margin-top: 17px;
     margin-bottom: 30px;
 }
-.me_contacter,.a_propos {
+footer .me_contacter,footer .a_propos {
     display: inline-block;
     width: 100px;
     margin: 0 10px 0 10px;
@@ -96,3 +103,6 @@ footer .contact {
 .intro,.problemes,.solutions {
     left: 37px;
 }
+
+body { background-color: #021036; }
+

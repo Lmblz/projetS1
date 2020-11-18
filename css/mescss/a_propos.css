@@ -1,0 +1,17 @@
+body.a_propos .presentation { margin-top: 49px; }
+
+body.a_propos .presentation p {
+    font-weight: normal;
+    width: 317px;
+    margin: 0 19px 5px 19px;
+}
+body {
+    height: 812px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.image {
+    margin-top: 15px;
+}
