@@ -85,22 +85,22 @@ footer .me_contacter,footer .a_propos {
 .fleches h3 {
     height: 25px;
 }
-.intro,.problemes,.solutions {
+.fleche_intro,.fleche_problemes,.fleche_solutions {
     position: absolute;
 }
 .fleches {
     position: relative;
 }
-.intro {
+.fleche_intro {
     top: 25px;
 }
-.problemes {
+.fleche_problemes {
     top: 225px;
 }
-.solutions {
+.fleche_solutions {
     top: 425px;
 }
-.intro,.problemes,.solutions {
+.fleche_intro,.fleche_problemes,.fleche_solutions {
     left: 37px;
 }
 

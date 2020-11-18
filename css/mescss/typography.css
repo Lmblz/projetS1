@@ -16,6 +16,9 @@ body.index p {
     text-align: center;
     font-size: 20px;
 }
+.menu .top p {
+    color: #021036;
+}
 .image_accueil .pitch p {
     font-weight: bold;
     text-align: center;
@@ -36,6 +39,6 @@ footer,footer a,footer .mentions-legales p {
 .menu_boutons span {
     font-size: 14px;
 }
-.a_propos p {
+.a_propos .main p {
     font-size: 15px;
 }
