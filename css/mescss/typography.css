@@ -1,8 +1,8 @@
 body {
     font-family: 'Quicksand';
 }
-footer p, footer a,span {
-    font-size: 15px;
+span {
+    font-size: 14px;
 }
 p {
     color: #F5E7C0;;
@@ -58,4 +58,7 @@ h2 {
 }
 a.article_suivant {
     text-decoration: none;
+}
+footer {
+    font-size: 14px;
 }

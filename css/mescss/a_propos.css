@@ -1,4 +1,4 @@
-body.a_propos .presentation { margin-top: 49px; }
+body.a_propos .presentation { margin-top: 35px; }
 
 body.a_propos .presentation p {
     font-weight: normal;
@@ -15,6 +15,9 @@ footer {
 .image {
     margin-top: 20px;
 }
-figure {
+body.a_propos .image img {
     width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
 }
