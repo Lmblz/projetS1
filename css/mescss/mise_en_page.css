@@ -44,10 +44,6 @@ main.accueil {
 }
 body.index footer { position: absolute; }
 
-footer {
-    position: absolute;
-}
-
 footer { bottom: 0; }
 
 footer .contact {
@@ -106,3 +102,10 @@ footer .me_contacter,footer .a_propos {
 
 body { background-color: #021036; }
 
+img,video {
+    border: #F5E7C0 solid 1px;
+}
+
+header img, .menu img, body.index img {
+    border: none;
+}

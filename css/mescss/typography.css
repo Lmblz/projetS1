@@ -1,8 +1,8 @@
 body {
     font-family: 'Quicksand';
 }
-p,a,span {
-    font-size: 14px;
+footer p, footer a,span {
+    font-size: 15px;
 }
 p {
     color: #F5E7C0;;
@@ -44,4 +44,18 @@ footer,footer a,footer .mentions-legales p {
 }
 h2 {
     font-style: italic;
+    color: #F5E7C0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.legende {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.article_suivant {
+    text-decoration: none;
 }

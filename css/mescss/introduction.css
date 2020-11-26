@@ -1,0 +1,39 @@
+main.introduction img, main.introduction video {
+    width: 293px;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+main.introduction p, main.introduction h2{
+    margin: auto 19px auto 19px;
+}
+
+main.introduction p {
+    margin: 0 19px 24px 19px;
+}
+
+main.introduction h2 {
+    margin-bottom: 21px;
+    margin-top: 35px;
+}
+
+body.introduction header {
+    margin-bottom: 19px;
+}
+
+.article_suivant {
+    width: 188.5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #F5E7C0;
+    padding: 5px 0 5px 0;
+    margin-bottom: 24px;
+}
+
+.article_suivant span {
+    color: #021036;
+    margin-bottom: 0;
+}
