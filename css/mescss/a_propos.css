@@ -1,21 +1,34 @@
-body.a_propos .presentation { margin-top: 35px; }
 
-body.a_propos .presentation p {
+body.a_propos .presentation
+{
+    margin-top: 35px;
+}
+
+body.a_propos .presentation p
+{
     font-weight: normal;
     width: 317px;
     margin: 0 19px 5px 19px;
 }
-body {
+
+body
+{
     height: 812px;
 }
-footer {
+
+footer
+{
     position: absolute;
     bottom: 0;
 }
-.image {
+
+.image
+{
     margin-top: 20px;
 }
-body.a_propos .image img {
+
+body.a_propos .image img
+{
     width: 375px;
     margin-left: auto;
     margin-right: auto;
