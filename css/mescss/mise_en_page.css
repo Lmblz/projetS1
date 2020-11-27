@@ -160,7 +160,7 @@ body
     background-color: #021036;
 }
 
-img,video
+img
 {
     border: #F5E7C0 solid 1px;
 }
@@ -168,4 +168,9 @@ img,video
 header img, .menu img, body.index img
 {
     border: none;
+}
+
+body
+{
+    width: 100%;
 }
