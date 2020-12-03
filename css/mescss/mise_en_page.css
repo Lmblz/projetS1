@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
 
 body
 {
@@ -25,6 +30,7 @@ header>h1
 {
     text-indent: -9999px;
     display: none;
+    position: absolute;
 }
 
 main.accueil
@@ -60,6 +66,8 @@ main.accueil
     height: 812px;
     margin-top: 0;
     background-image: url("../img/img_centre.jpg");
+    background-size: 375px;
+    background-repeat: no-repeat;
 }
 
 .index .down h3
@@ -173,4 +181,16 @@ header img, .menu img, body.index img
 body
 {
     width: 100%;
+}
+
+main.accueil>p {
+    width: 363px;
+}
+
+body.index footer {
+    width: 375px;
+}
+
+.image_accueil img {
+    width: 375px;
 }

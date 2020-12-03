@@ -1,7 +1,11 @@
+@font-face {
+    font-family: "Aero";
+    src: url("../fonts/Aero.ttf") format("ttf");
+}
 
 body
 {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
 }
 
 span
@@ -22,7 +26,7 @@ body.index p
 
 .accueil>p,.menu p
 {
-    font-family: "Quicksand Light";
+    font-family: "Quicksand Light", sans-serif;
     font-style: italic;
     text-align: center;
     font-size: 20px;

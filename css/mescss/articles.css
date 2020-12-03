@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 
 main img, main.introduction video
 {
@@ -25,11 +28,6 @@ h2
 {
     margin-bottom: 21px;
     margin-top: 35px;
-}
-
-header
-{
-    margin-bottom: 19px;
 }
 
 .article_suivant
@@ -87,17 +85,23 @@ main.introduction .images_intro
     margin: auto 33.31px;
 }
 
-
 header
 {
     position: fixed;
     top: 0;
     background-color: #021036;
-    width: 100%;
     height: 75px;
+    margin-bottom: 19px;
+    width: 375px;
+
 }
 
 main
 {
     margin-top: 80px;
+}
+
+.images_galerie
+{
+    text-align: center;
 }

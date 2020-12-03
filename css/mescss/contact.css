@@ -58,17 +58,20 @@ button {
     margin-left: .5em;
 }
 
-form div:last-of-type
+form div:last-of-type input
 {
-    position: relative;
+    height: 75px;
 }
 
-a.send img {
-    position: absolute;
-    right: 0;
+a.send span {
+    text-decoration: none;
+    color: #F5E7C0;
+}
+
+
+a.send span::after {
+    content: url("/img/send.png");
     width: 20px;
-    bottom: 0;
-    margin: 5px;
 }
 
 img
@@ -102,6 +105,6 @@ img
     display: inline-block;
 }
 
-.article_suivant {
+main.contact .article_suivant {
     margin-bottom: 54px;
 }

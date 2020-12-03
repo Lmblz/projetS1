@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fontmeme.com/polices/police-aero/">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/mise_en_page.css">
     <link rel="stylesheet" href="css/mescss/si_vous_avez_aime.css">
+    <link rel="stylesheet" href="css/mescss/carousel.css">
+    <link rel="stylesheet" href="css/mescss/articles.css">
 </head>
 <body class="si_vous_avez_aime">
 <header>
@@ -21,47 +22,218 @@
     <div class=logo>
         <a href="index.html"><img src="css/svg/logo_violet.svg" alt="logo"></a>
     </div>
-    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')"><div class="nav-toggle-bar"></div>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
         <nav class="menu">
             <div class="top">
                 <h1><img src="css/svg/logo.svg" alt="Logo"></h1>
-                <p>Et si ce que vous pensiez savoir sur le web n'était qu'une E-LLUSION ?</p>
+                <p>
+                    Et si ce que vous pensiez savoir sur le web n'était qu'une E-LLUSION ?
+                </p>
             </div>
             <div class="menu_boutons">
                 <div class="menu_introduction">
-                    <a href="introduction.html"><div class="hexagone"><div class="hexagonemain"><div class="hexagonemainbefore"></div></div>
-                        <span class="hexagonecontent">Introduction</span></div>
-                        <div class="introduction_svg"><img src="css/svg/introduction.svg" alt="introduction svg"></div></a>
+                    <a href="introduction.html">
+                        <div class="hexagone">
+                            <div class="hexagonemain">
+                                <div class="hexagonemainbefore"></div>
+                            </div>
+                            <span class="hexagonecontent">Introduction</span>
+                        </div>
+                        <div class="introduction_svg">
+                            <img src="css/svg/introduction.svg" alt="introduction svg">
+                        </div>
+                    </a>
                 </div>
                 <div class="menu_problemes">
-                    <a href="problemes.html"><div class="hexagone"><div class="hexagonemain"><div class="hexagonemainbefore"></div></div>
-                        <span class="hexagonecontent">Problèmes</span></div>
-                        <div class="problemes_svg"><img src="css/svg/problemes.svg" alt="problemes svg"></div></a>
+                    <a href="problemes.html">
+                        <div class="hexagone">
+                            <div class="hexagonemain">
+                                <div class="hexagonemainbefore"></div>
+                            </div>
+                            <span class="hexagonecontent">Problèmes</span>
+                        </div>
+                        <div class="problemes_svg">
+                            <img src="css/svg/problemes.svg" alt="problemes svg">
+                        </div>
+                    </a>
                 </div>
                 <div class="menu_solutions">
-                    <a href="solutions.html"><div class="hexagone"><div class="hexagonemain"><div class="hexagonemainbefore"></div></div>
-                        <span class="hexagonecontent">Solutions</span></div>
-                        <div class="solutions_svg"><img src="css/svg/solutions.svg" alt="solutions svg"></div></a>
+                    <a href="solutions.html">
+                        <div class="hexagone">
+                            <div class="hexagonemain">
+                                <div class="hexagonemainbefore"></div>
+                            </div>
+                            <span class="hexagonecontent">Solutions</span>
+                        </div>
+                        <div class="solutions_svg">
+                            <img src="css/svg/solutions.svg" alt="solutions svg">
+                        </div>
+                    </a>
                 </div>
                 <div class="menu_contact">
-                    <a href="contact.html"><div class="hexagone"><div class="hexagonemain"><div class="hexagonemainbefore"></div></div>
-                        <span class="hexagonecontent">Contact</span></div>
-                        <div class="contact_svg"><img src="css/svg/contact.svg" alt="contact svg"></div></a>
+                    <a href="contact.html">
+                        <div class="hexagone">
+                            <div class="hexagonemain">
+                                <div class="hexagonemainbefore"></div>
+                            </div>
+                            <span class="hexagonecontent">Contact</span>
+                        </div>
+                        <div class="contact_svg">
+                            <img src="css/svg/contact.svg" alt="contact svg">
+                        </div>
+                    </a>
                 </div>
                 <div class="menu_si_vous_avez_aime">
-                    <a href="si_vous_avez_aime.html"><div class="hexagone"><div class="hexagonemain"><div class="hexagonemainbefore"></div></div>
-                        <span class="hexagonecontent">Si vous avez aimé</span></div>
-                        <div class="si_vous_avez_aime_svg"><img src="css/svg/compass.svg" alt="si vous avez aimé svg"></div></a>
+                    <a href="si_vous_avez_aime.html">
+                        <div class="hexagone">
+                            <div class="hexagonemain">
+                                <div class="hexagonemainbefore"></div>
+                            </div>
+                            <span class="hexagonecontent">Si vous avez aimé</span>
+                        </div>
+                        <div class="si_vous_avez_aime_svg">
+                            <img src="css/svg/compass.svg" alt="si vous avez aimé svg">
+                        </div>
+                    </a>
                 </div>
                 <div class="menu_a_propos">
-                    <a href="a_propos.html"><div class="hexagone"><div class="hexagonemain"><div class="hexagonemainbefore"></div></div>
-                        <span class="hexagonecontent">À propos</span></div>
-                        <div class="a_propos_svg"><img src="css/svg/user.svg" alt="a propos svg"></div></a>
+                    <a href="a_propos.html">
+                        <div class="hexagone">
+                            <div class="hexagonemain">
+                                <div class="hexagonemainbefore"></div>
+                            </div>
+                            <span class="hexagonecontent">À propos</span>
+                        </div>
+                        <div class="a_propos_svg">
+                            <img src="css/svg/user.svg" alt="a propos svg">
+                        </div>
+                    </a>
                 </div>
-                <div class="e_menu"><a href="index.html"><img src="css/svg/e.svg" alt="E logo"></a></div>
+                <a href="index.html">
+                    <div class="e_menu">
+                        <img src="css/svg/e.svg" alt="E logo">
+                    </div>
+                </a>
             </div>
         </nav>
     </div>
 </header>
+<main class="si_vous_avez_aime">
+    <h2>Autres projets :</h2>
+    <article class="si_vous_avez_aime">
+        <p>Si vous avez apprécié mes propos et que vous souhaitez aller plus loin, vous trouverez des liens pour
+            accéder aux projets d’autres étudiants.</p>
+    </article>
+    <section class="carousel-items">
+        <ul>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/thomas_jeu_hiden.png" alt="Projet de Thomas Jeu HiDen">
+                    <h3>Créateur : Thomas Jeu</h3>
+                    <h3>Projet : HiDen</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/maxence_guichard_lmf.png" alt="Projet de Maxence Guichard La Menace Fantôme">
+                    <h3>Créateur Maxence Guichard</h3>
+                    <h3>Projet : La menace fantôme</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/nicolas_gelin_blackworld.png" alt="Projet Nicolas Gelin Black World">
+                    <h3>Créateur : Nicolas Gelin</h3>
+                    <h3>Projet : Black World</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/martin_liger_numerisk.png" alt="Projet Martin Liger Numerisk">
+                    <h3>Créateur : Martin Liger</h3>
+                    <h3>Projet : Numérisk</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/julien_ferre_terminateurweb.png" alt="Projet Julien Ferre Terminateur Web">
+                    <h3>Créateur : Julien Ferre</h3>
+                    <h3>Projet : Terminateur Web</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/maxime_malatier_darksideofpp.png" alt="Projet Maxime Malatier The Dark Side of PP">
+                    <h3>Créateur : Maxime Malatier</h3>
+                    <h3>Projet : The Dark Side of PP</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/justine_emond_darklyoko.png" alt="Projet Justine Emond Dark Lyoko">
+                    <h3>Créateur : Justine Emond</h3>
+                    <h3>Projet : Dark Lyoko</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/solenne_heitz_technogreen.png" alt="Projet Solenne Heitz Greenworld">
+                    <h3>Créateur : Solenne Heitz</h3>
+                    <h3>Projet : Greenworld</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/teo_gheno_nuclearweb.png" alt="Projet Teo Gheno Nuclear Web">
+                    <h3>Créateur : Téo Gheno</h3>
+                    <h3>Projet : Nuclear Web</h3>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a class="carousel" href="">
+                    <img src="img/projets/raphael_lemoine_vr.png" alt="Projet Raphaël Lemoine VR : Une réalité pas si virtuelle">
+                    <h3>Créateur : Raphaël Lemoine</h3>
+                    <h3>Projet : VR : Une réalité par si virtuelle</h3>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <div class="galerie">
+        <h2>Galerie :</h2>
+        <p>Vous trouverez ci-dessous quelques films et séries corrélés </p>
+        <div class="images_galerie">
+            <img src="img/Total%20recall.jpg" alt="Image film Total Recall">
+            <img src="img/Matrix.jpg" alt="Image film Matrix">
+            <img src="img/Blade%20runner.jpg" alt="Image film Blade Runner">
+            <img src="img/social%20network.jpg" alt="Image film The Social Network">
+            <img src="img/black%20mirror.jpg" alt="Image serie Black Mirror">
+            <img src="img/mr%20robot.jpg" alt="Image serie Mr Robot">
+            <img src="img/ready%20player%20one.jpg" alt="Image film Ready Player One">
+            <img src="img/inception.jpg" alt="Image film Inception">
+            <img src="img/terminator.jpg" alt="Image film Terminator">
+            <img src="img/real%20humans.jpg" alt="Image serie Real Humans">
+            <div class="ligne"></div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="mentions-legales">
+        <p>
+            Projet réalisé dans le cadre d'un exercice pédagogique au département
+            <a href="http://mmimontbeliard.com/">MMI de Montbéliard.</a>
+            Thomas Lambolez B1 -
+            <a href="mailto:lambolez.th@gmail.com">lambolez.th@gmail.com</a>
+        </p>
+    </div>
+    <div class="contact">
+        <div class="me_contacter">
+            <a href="">Me contacter</a>
+        </div>
+        <div class="a_propos">
+            <a href="a_propos.html">À propos</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
