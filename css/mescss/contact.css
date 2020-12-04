@@ -68,12 +68,6 @@ a.send span {
     color: #F5E7C0;
 }
 
-
-a.send span::after {
-    content: url("/img/send.png");
-    width: 20px;
-}
-
 img
 {
     border: none;
@@ -107,4 +101,12 @@ img
 
 main.contact .article_suivant {
     margin-bottom: 54px;
+}
+
+form a.send span {
+    position: absolute;
+    color: #021036;
+    right: 45px;
+    top: 440px;
+    font-family: "Quicksand",sans-serif;
 }
