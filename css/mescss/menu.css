@@ -227,7 +227,7 @@ body
     left: 155px;
 }
 
-.menu h2
+header div.nav-toggle nav.menu div.top h2
 {
     position: absolute;
     top: 51px;
