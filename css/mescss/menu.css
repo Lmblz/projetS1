@@ -227,11 +227,12 @@ body
     left: 155px;
 }
 
-.menu h1
+.menu h2
 {
     position: absolute;
     top: 51px;
     left: 18px;
+    margin-left: 0;
 }
 
 .menu p
