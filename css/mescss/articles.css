@@ -2,11 +2,15 @@ body {
     overflow-x: hidden;
 }
 
-main img, main.introduction video
+main img, main.introduction video, body.a_propos .video video
 {
     width: 293px;
     margin-left: 41px;
     margin-right: 41px;
+}
+
+main.introduction video, body.a_propos .video video {
+    border-radius: 20px;
 }
 
 main.introduction video

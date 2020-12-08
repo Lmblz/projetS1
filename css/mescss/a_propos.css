@@ -18,13 +18,13 @@ body
 
 footer
 {
-    position: absolute;
     bottom: 0;
 }
 
 .image
 {
     margin-top: 20px;
+    margin-bottom: 24px;
 }
 
 body.a_propos .image img
@@ -33,4 +33,9 @@ body.a_propos .image img
     margin-left: auto;
     margin-right: auto;
     border: none;
+}
+
+video
+{
+    margin-top: 20px;
 }
