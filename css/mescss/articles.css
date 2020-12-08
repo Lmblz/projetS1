@@ -110,3 +110,9 @@ h4
 {
     margin: 0 19px 24px 19px;
 }
+
+strong a
+{
+    text-decoration-line: none;
+    color: #F5E7C0;
+}
