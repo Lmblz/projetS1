@@ -202,28 +202,28 @@ body
 
 .menu_introduction
 {
-    top: 320px;
+    top: 230px;
 }
 
 .menu_problemes,.menu_solutions
 {
-    top: 383px;
+    top: 293px;
 }
 
 .menu_contact,.menu_si_vous_avez_aime
 {
-    top: 510px;
+    top: 420px;
 }
 
 .menu_a_propos
 {
-    top: 572px;
+    top: 482px;
 }
 
 .e_menu img
 {
     position: absolute;
-    top: 485px;
+    top: 395px;
     left: 155px;
 }
 
