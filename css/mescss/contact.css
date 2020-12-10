@@ -77,7 +77,7 @@ img
     width: 35px;
 }
 
-.reseaux { margin: 55px auto; }
+.reseaux { margin: 37px auto 55px auto; }
 
 .twitter img {
     /*margin-left: 75px;
@@ -109,4 +109,9 @@ form a.send span {
     right: 45px;
     top: 440px;
     font-family: "Quicksand",sans-serif;
+}
+
+a.send p {
+    margin-left: 235px;
+    margin-bottom: 0;
 }
